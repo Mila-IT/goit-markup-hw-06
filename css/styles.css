@@ -441,6 +441,56 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+.subscribe-form {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-bcg);
+  margin-bottom: 16px;
+}
+.subscribe-box {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  height: 40px;
+  width: 264px;
+  background-color: var(--dark);
+}
+input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-bcg);
+  padding-left: 16px;
+}
+.subscribe-button {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  background: #4d5ae5;
+  border-radius: 4px;
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.subscribe-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8 24 8 16;
+}
+.footer-social {
+  margin-right: 80px;
+}
 
 /* PAGE PORTFOLIO */
 
