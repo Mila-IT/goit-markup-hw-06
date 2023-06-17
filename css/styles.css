@@ -8,6 +8,7 @@
   --text: #434455;
   --white-bcg: #ffffff;
   --text-privacy: #8e8f99;
+  --cloud: #f4f4fd;
 }
 
 .container {
@@ -401,8 +402,8 @@ img {
 
 .order-checkbox-input:checked + .checkbox-label > .fake-checkbox {
   background-color: var(--pressed-state);
-  border-color: var(--pressed-state);
-  fill: var(--white-bcg);
+  border: none;
+  fill: var(--cloud);
 }
 
 .order-police {
