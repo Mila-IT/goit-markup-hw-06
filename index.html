@@ -489,50 +489,76 @@
         </p>
 
         <form class="order-modal-form">
-          <div class="order-label-name">
-            <label for="order-user-name">Name </label>
-            <div class="order-input-wrapper">
+          <div class="order-box">
+            <label class="order-label" for="order-user-name">Name </label>
+            <div class="order-wrapper">
               <input
                 type="text"
                 name="user-name"
                 id="order-user-name"
-                class="order-input-name"
+                class="order-input"
               />
-              <svg class="order-name-icon" width="18" height="18">
+              <svg class="order-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
 
-          <div class="order-label-name">
-            <label for="order-user-name">Phone </label>
-            <div class="order-input-wrapper">
+          <div class="order-box">
+            <label class="order-label" for="order-user-phone">Phone </label>
+            <div class="order-wrapper">
               <input
                 type="text"
-                name="user-name"
-                id="order-user-name"
-                class="order-input-name"
+                name="user-phone"
+                id="order-user-phone"
+                class="order-input"
               />
-              <svg class="order-name-icon" width="18" height="18">
-                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              <svg class="order-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
           </div>
+
+          <div class="order-box">
+            <label class="order-label" for="order-user-email">E-mail</label>
+            <div class="order-wrapper">
+              <input
+                type="text"
+                name="user-email"
+                id="order-user-email"
+                class="order-input"
+              />
+              <svg class="order-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="order-textarea">
+            <label class="order-label" for="comment">Comment</label>
+            <textarea
+              class="order-comment"
+              placeholder="Text input"
+              name="comment"
+              id="comment"
+              rows="10"
+            ></textarea>
+          </div>
+          <input
+            type="checkbox"
+            id="checkbox"
+            class="visually-hidden order-checkbox-input"
+          />
+          <label class="checkbox-label" for="checkbox">
+            <span class="fake-checkbox">
+              <svg width="10" height="8">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg> </span
+            >I accept the terms and conditions of the
+            <a href="" class="order-police">Privacy Policy</a></label
+          >
+          <button class="hero-button" type="submit">Send</button>
         </form>
-
-        <input
-          type="checkbox"
-          id="checkbox"
-          class="visually-hidden order-checkbox-input"
-        />
-        <label class="checkbox-label" for="checkbox">
-          <span class="fake-checkbox">
-            <svg width="10" height="8">
-              <use href="./images/icons.svg#icon-vector"></use>
-            </svg> </span
-          >I accept the terms and conditions of the
-          <a href="" class="order-police">Privacy Policy</a></label
-        >
       </div>
     </div>
 
