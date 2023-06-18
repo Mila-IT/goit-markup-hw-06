@@ -205,6 +205,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-bcg);
   background-color: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -588,7 +593,7 @@ img {
   background-color: transparent;
   outline: none;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-bcg);
   padding-left: 16px;
@@ -599,19 +604,23 @@ img {
 .subscribe-button {
   display: flex;
   min-width: 165px;
-  letter-spacing: 0.04em;
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
-  background: #4d5ae5;
-  border-radius: 4px;
-  border: none;
+
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+
   color: var(--white-bcg);
+  background: #4d5ae5;
+  border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
+
 .subscribe-title {
   font-weight: 500;
   font-size: 16px;
